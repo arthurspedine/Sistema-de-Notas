@@ -1,0 +1,205 @@
+body {
+    background-color: rgba(33, 109, 109, 0.39);
+    background-attachment: fixed;
+    font-family: sans-serif, Arial;
+}
+/* ======== MENU ======== */
+nav {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    margin: -8px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+nav h1 {
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+    margin: 18px auto;
+    padding-left: 72px;
+}
+
+.voltar {
+    border: none;
+    padding: 8px 10px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 15px;
+
+    background-color: rgb(55, 86, 173);
+    color: white;
+    outline: none;
+    border-radius: 5px;
+}
+
+/* ======== CADASTRO ======== */
+
+.alunocadastrar {
+    border: none;
+    padding: 8px 10px;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 30px 0px 20px 50px;
+
+    background-color: rgb(55, 86, 173);
+    color: white;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+#cadastroAluno table {
+    width: 500px;
+    margin: -30px auto 18px;
+    font-family: sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: collapse;
+    overflow: auto;
+    border: 1px solid #000;
+}
+
+#cadastroAluno caption {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+    color: #111;
+    margin: 20px 0px 5px -13px;
+}
+
+#cadastroAluno thead {
+    background-color: #333;
+    color: white;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 2%;
+}
+
+#cadastroAluno th, td {
+    padding: 8px;
+}
+
+#cadastroAluno thead th {
+    width: 10%;
+}
+
+#cadastroAluno tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+#cadastroAluno tbody tr:nth-child(even){
+    background-color: #eee;
+}
+
+#cadastroAluno input::-webkit-outer-spin-button, 
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#cadastroAluno input {
+    border: 1px solid #ccc;
+    width: 150px;
+    height: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+
+#cadastroAluno input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+#cadastroAluno button {
+    border: 2px solid #a0c5ba;
+    background-color: #a0c5ba;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    width: auto;
+    height: 25px;
+    margin: 5px;
+}
+
+#cadastroAluno button:hover {
+    background-color: #b6e6d6;
+    border: 2px dotted #a0c5ba;
+}
+
+/* ======== LISTA ======== */
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+thead {
+    background-color: #333;
+    color: white;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 2%;
+}
+
+th, td {
+    padding: 8px;
+}
+
+thead th {
+    width: 10%;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+
+tbody tr:nth-child(odd) th{
+    background-color: #36c;
+    color: #fff;
+}
+tbody tr:nth-child(even) th{
+    background-color: #25c;
+    color: #fff;
+}
+
+td.rep {
+    color: #900;
+    font-weight: 700;
+}
+td.r {
+    color: red;
+    font-weight: 700;
+}
+td.a {
+    color: green;
+    font-weight: 700;
+}
+td.i{
+    color: gray;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #0077b6;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff6b6b;
+}

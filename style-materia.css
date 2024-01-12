@@ -1,0 +1,198 @@
+body {
+    background-color: rgba(33, 109, 109, 0.39);
+    background-attachment: fixed;
+}
+/* ======== MENU ======== */
+
+nav {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -8px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav h1 {
+    font-weight: bold;
+    font-size: 28px;
+    font-family: sans-serif;
+    color: black;
+    margin: 18px auto;
+    padding-left: 72px;
+}
+
+.voltar {
+    border: none;
+    padding: 8px 10px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 15px;
+
+    background-color: rgb(55, 86, 173);
+    color: white;
+    outline: none;
+    border-radius: 5px;
+}
+
+/* ======== ABA ======== */
+
+.materias {
+    width: 500px;
+    height: auto;
+    background-color: rgb(174, 189, 189);
+    padding: 10px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #646464;
+    font-family: sans-serif;
+    text-align: center;
+    opacity: 1;
+}
+
+h2 {
+    font-size: 29px;
+    margin-bottom: 12px;
+    margin-top: 11px;
+}
+
+.radio-toolbar {
+    margin: 10px;
+}
+
+.radio-toolbar input[type="radio"]{
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.radio-toolbar label {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 10px 20px;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    border: 2px solid #444;
+    border-radius: 4px;
+    margin: 0px 5px 0px 5px
+}
+
+.radio-toolbar input[type="radio"]:hover + label {
+    cursor: pointer;
+}
+
+.radio-toolbar input[type="radio"]:checked + label {
+    background-color: #bfb;
+    border-color: #4c4;
+}
+
+.radio-toolbar input[type="radio"][value="Cadastrar"]:checked + label {
+    background-color: rgb(137, 161, 228);
+    border-color: rgb(55, 86, 173);
+}
+
+.radio-toolbar input[type="radio"][value="Editar"]:checked + label {
+    background-color: rgb(141, 150, 179);
+    border-color: rgb(55, 86, 173);
+}
+
+.radio-toolbar input[type="radio"][value="Excluir"]:checked + label {
+    background-color: rgb(216, 111, 111);
+    border-color: #6b0040;
+}
+
+/* ======== FORM ======== */
+
+#formCadastro, #formExcluir, #formEditar {
+    width: 300px;
+    height: auto;
+    background-color: rgba(33, 109, 109, 0.39);
+    padding: 10px;
+    margin: 30px auto;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+#formCadastro label, #formExcluir label, #formEditar label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input#materia {
+    border: 2px solid #8a8a8a;
+    width: 250px;
+    height: 30px;
+    background-color: #d1d1d1;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 11px;
+    display: block;
+    word-wrap: break-word;
+}
+
+#formEditar input {
+    border: 2px solid #8a8a8a;
+    width: 180px;
+    height: 25px;
+    background-color: #d1d1d1;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    word-wrap: break-word;
+}
+
+
+.div-select {
+    width: 150px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 6px auto;
+}
+
+.div-select select {
+    background-color: rgb(55, 86, 173);
+    border: 1px solid rgb(55, 86, 173);
+    border-radius: 20px;
+    width: 200px;
+    height: 48px;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    padding: 13px 18px 13px 24px;
+    color: #fff;
+    text-indent: 0.01px;
+    text-overflow: "";
+    outline: none;
+}
+
+.div-select select::-ms-expand {
+    display: none;
+}
+
+
+/* ======== BOTÃO SUBMIT ======== */
+
+button {
+    border: 2px solid #a0c5ba;
+    background-color: #a0c5ba;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 17px;
+    width: auto;
+    height: 25px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #b6e6d6;
+    border: 2px dotted #a0c5ba;
+}
+
+
+
+

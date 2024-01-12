@@ -1,0 +1,116 @@
+body {
+    background-color: rgba(33, 109, 109, 0.39);
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+/* ======== MENU ======== */
+nav {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -8px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+nav h1 {
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+    margin: 18px auto;
+    padding-left: 72px;
+}
+
+.voltar {
+    border: none;
+    padding: 8px 10px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 15px;
+
+    background-color: rgb(55, 86, 173);
+    color: white;
+    outline: none;
+    border-radius: 5px;
+}
+
+/* ======== TABELA ======== */
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    width: 95%;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 32px;
+    text-align: left;
+    color: #111;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+
+thead {
+    background-color: #333;
+    color: white;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 1%;
+}
+
+th, td {
+    padding: 8px;
+}
+
+thead th {
+    width: 10%;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+tbody tr:nth-child(even){
+    background-color: #eee;
+}
+
+tbody tr:nth-child(odd) th{
+    background-color: #36c;
+    color: #fff;
+}
+tbody tr:nth-child(even) th{
+    background-color: #25c;
+    color: #fff;
+}
+
+td.rep {
+    color: #900;
+    font-weight: 700;
+}
+td.r {
+    color: red;
+    font-weight: 700;
+}
+td.a {
+    color: green;
+    font-weight: 700;
+}
+td.i{
+    color: gray;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #0077b6;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff6b6b;
+}

@@ -1,0 +1,123 @@
+body {
+    background-color: rgba(33, 109, 109, 0.39);
+    background-attachment: fixed;
+    font-family: sans-serif, Arial;
+}
+/* ======== MENU ======== */
+nav {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    margin: -8px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav h1 {
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+    margin-left: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul .a::after {
+    content: '';
+    width: 85%;
+    height: 3px;
+    background-color: rgb(55, 86, 173);
+    display: flex;
+    position: relative;
+    margin-left: 5px;
+}
+
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#cadastros {
+    border: none;
+    padding: 8px 10px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 15px;
+
+    background-color: rgb(55, 86, 173);
+    color: white;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+/* ======== LISTA ======== */
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    text-align: center;
+    vertical-align: middle;
+    margin: 30px auto;
+    width: 95%;
+}
+
+thead {
+    background-color: #333;
+    color: white;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 2%;
+}
+
+th, td {
+    padding: 8px;
+}
+
+thead th {
+    width: 8%;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+tbody tr:nth-child(even){
+    background-color: #eee;
+}
+
+tbody tr:nth-child(odd) th{
+    background-color: #36c;
+    color: #fff;
+}
+tbody tr:nth-child(even) th{
+    background-color: #25c;
+    color: #fff;
+}
+
+td.rep {
+    color: #900;
+    font-weight: 700;
+}
+td.r {
+    color: red;
+    font-weight: 700;
+}
+td.a {
+    color: green;
+    font-weight: 700;
+}
+td.i{
+    color: gray;
+    font-weight: 700;
+}
