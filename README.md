@@ -10,4 +10,4 @@
 
 * Pagina do banco de dados
 
-* ![image](https://github.com/penguiin121/Sistema-de-Notas/assets/65985748/62670c3b-6d57-4690-be6b-670d0751dcf0)
+![image](https://github.com/penguiin121/Sistema-de-Notas/assets/65985748/62670c3b-6d57-4690-be6b-670d0751dcf0)
